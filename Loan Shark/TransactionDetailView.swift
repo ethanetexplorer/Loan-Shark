@@ -45,7 +45,7 @@ struct TransactionDetailView: View {
                                 }
                             }
                         }
-                        HStack{
+                        HStack {
                             Text("Amount of money:")
                             TextField("Amount", value: $0.money, formatter: NumberFormatter())
                                 .foregroundColor(.gray)
@@ -64,7 +64,7 @@ struct TransactionDetailView: View {
                         }
                     }
                 }
-                Button{
+                Button {
                     print("Saved transaction")
                 } label: {
                     Text("Save")
@@ -76,7 +76,7 @@ struct TransactionDetailView: View {
                 }
                 .padding(.horizontal)
             }
-            Button{
+            Button {
                 print("Saved transaction")
             } label: {
                 Text("Save")
