@@ -29,10 +29,10 @@ class Transaction: Identifiable, Codable {
     var isPaid: Bool = false
     
     var status: TransactionStatus {
-        if isPaid{
+        if isPaid {
             return .paidOff
         }
-        else if Date.now > dueDate && !isPaid{
+        else if Date.now > dueDate && !isPaid {
             return .overdue
         }
         else if abs(dueDate.timeIntervalSinceNow) <= 604800 && !isPaid{
