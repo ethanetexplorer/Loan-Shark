@@ -31,7 +31,7 @@ struct TransactionDetailView: View {
             VStack {
                 Form {
                     Section(header: Text("Transaction details")) {
-                        HStack{
+                        HStack {
                             Text("Title")
                             TextField("Add title", text: $0.name)
                                 .foregroundColor(.gray)
