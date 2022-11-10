@@ -86,7 +86,7 @@ struct HomeView: View {
                                     .font(.title2)
                             }
                         }
-                        .sheet(isPresented: $showTransactionDetailsSheet) {
+                        .sheet(isPresented: $showTransactionDetailsSheet){
                             TransactionDetailView(transaction: $transaction, showBillSplit: transaction.isBillSplitTransaction)
                         }
                     }
