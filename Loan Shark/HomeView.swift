@@ -67,7 +67,7 @@ struct HomeView: View {
                         }
                     }
                 }
-                Section(header: Text("OUTSTANDING")) {
+                Section(header: Text("Others")) {
                     ForEach($manager.otherTransactions) { $transaction in
                         Button {
                             showTransactionDetailsSheet = true
