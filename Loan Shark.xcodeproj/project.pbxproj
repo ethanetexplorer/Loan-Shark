@@ -13,8 +13,6 @@
 		7478E43229178DBF00E10E64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7478E43129178DBF00E10E64 /* Preview Assets.xcassets */; };
 		7478E43929178DF200E10E64 /* Loan Shark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478E43829178DF100E10E64 /* Loan Shark.swift */; };
 		7478E43B291797E600E10E64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478E43A291797E600E10E64 /* HomeView.swift */; };
-		7478E43D2917AA3F00E10E64 /* LoanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478E43C2917AA3F00E10E64 /* LoanDetailView.swift */; };
-		7478E43F2917B7DD00E10E64 /* BillSplitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478E43E2917B7DD00E10E64 /* BillSplitDetailView.swift */; };
 		7478E4412917D79700E10E64 /* NewTransactionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478E4402917D79700E10E64 /* NewTransactionSheet.swift */; };
 		747C5A79291B522A00669EC4 /* TransactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C5A78291B522A00669EC4 /* TransactionManager.swift */; };
 		747C5A7B291B7B0E00669EC4 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C5A7A291B7B0E00669EC4 /* TransactionDetailView.swift */; };
@@ -28,8 +26,6 @@
 		7478E43129178DBF00E10E64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7478E43829178DF100E10E64 /* Loan Shark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loan Shark.swift"; sourceTree = "<group>"; };
 		7478E43A291797E600E10E64 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		7478E43C2917AA3F00E10E64 /* LoanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanDetailView.swift; sourceTree = "<group>"; };
-		7478E43E2917B7DD00E10E64 /* BillSplitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillSplitDetailView.swift; sourceTree = "<group>"; };
 		7478E4402917D79700E10E64 /* NewTransactionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionSheet.swift; sourceTree = "<group>"; };
 		747C5A78291B522A00669EC4 /* TransactionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManager.swift; sourceTree = "<group>"; };
 		747C5A7A291B7B0E00669EC4 /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
@@ -67,12 +63,10 @@
 			children = (
 				747C5A78291B522A00669EC4 /* TransactionManager.swift */,
 				7478E4402917D79700E10E64 /* NewTransactionSheet.swift */,
-				7478E43C2917AA3F00E10E64 /* LoanDetailView.swift */,
 				7478E42A29178DBE00E10E64 /* Loan_SharkApp.swift */,
 				7478E42C29178DBE00E10E64 /* ContentView.swift */,
 				7478E43A291797E600E10E64 /* HomeView.swift */,
 				747C5A7A291B7B0E00669EC4 /* TransactionDetailView.swift */,
-				7478E43E2917B7DD00E10E64 /* BillSplitDetailView.swift */,
 				7478E43829178DF100E10E64 /* Loan Shark.swift */,
 				7478E42E29178DBF00E10E64 /* Assets.xcassets */,
 				7478E43029178DBF00E10E64 /* Preview Content */,
@@ -159,8 +153,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7478E42D29178DBE00E10E64 /* ContentView.swift in Sources */,
-				7478E43F2917B7DD00E10E64 /* BillSplitDetailView.swift in Sources */,
-				7478E43D2917AA3F00E10E64 /* LoanDetailView.swift in Sources */,
 				747C5A7B291B7B0E00669EC4 /* TransactionDetailView.swift in Sources */,
 				7478E4412917D79700E10E64 /* NewTransactionSheet.swift in Sources */,
 				747C5A79291B522A00669EC4 /* TransactionManager.swift in Sources */,

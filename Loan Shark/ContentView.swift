@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var transactionManager = TransactionManager()
+    
     var body: some View {
-        TabView {
-            HomeView()
-                .tabItem {
-                    Label("Home", systemImage: "house")
-            }
-        }
+        HomeView()
     }
 }
 
