@@ -66,7 +66,7 @@ struct NewTransactionSheet: View {
                         }
                     }
                 }
-                Button{
+                Button {
                     manager.allTransactions.append(newTransaction)
                     dismiss()
                 } label: {
